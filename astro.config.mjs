@@ -8,4 +8,5 @@ export default defineConfig({
     plugins: [tailwindcss()],
   },
   site: 'https://Shubh2018.github.io',
+  base: '/dev-portfolio'
 });
