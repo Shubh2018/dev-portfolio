@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: "Shubhendra Chaddha",
   title: "Game Programmer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  description: "",
   accentColor: "#e64242",
   social: {
     email: "shubhendrachaddha.16@gmail.com",
