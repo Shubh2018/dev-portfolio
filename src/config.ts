@@ -1,91 +1,106 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
+  name: "Shubhendra Chaddha",
+  title: "Game Programmer",
   description: "Portfolio website of Ryan Fitzgerald",
-  accentColor: "#1d4ed8",
+  accentColor: "#e64242",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "shubhendrachaddha.16@gmail.com",
+    linkedin: "https://linkedin.com/in/shubhendrachaddh",
+    twitter: "",
+    github: "https://github.com/Shubh2018",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "Game Programmer with around 2 years of professional experience developing real-time interactive software using C++, C#, and Python. Experienced in gameplay and systems programming, AI behaviours, state machines, physics, networking, UI, and reusable software components. Strong interest in C++ game technology, graphics, and engine-level systems, with hands-on experience in OpenGL, Unity, and Unreal Engine 5. Currently pursuing an MSc in Games (Tech Track) at the IT University of Copenhagen.",
+  skills: ["Unity3D", "C++", "C#", "OpenGL", "Godot", "Unreal Engine", "Git", "GIMP"],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "Scourge",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Embark on a quest fit for a nightmare into this reverse-DOOM rogue-lite.",
+      link: "https://shubh2020.itch.io/scourge",
+      skills: ["Unity3D", "C#", "FMOD", "GIMP"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "The Inferno Complex",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Shoot your way out of a looping space prison. Made for GMTK game Jam",
+      link: "https://adpuz.itch.io/the-inferno-complex",
+      skills: ["Unity3D", "C#"],
     },
     {
-      name: "ExtensionKit",
+      name: "The Exit Theory",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Figure out how a man made the news headlines for doing something absolutely ordinary.",
+      link: "https://skamd.itch.io/the-exit-theory",
+      skills: ["Unity3D", "C#"],
+    },
+    {
+      name: "Crazy Danish Taxi",
+      description:
+        "A game about Denmark, weather and unpredectibility",
+      link: "https://shubh2020.itch.io/crazy-danish-taxi",
+      skills: ["Unity3D", "C#"],
     },
   ],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "PIBOCO",
+      title: "Part-Time Unity Developer",
+      dateRange: "November 2024 - August 2025",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
+        "Developed and maintained real-time software functionality using C#, translating requirements into robust production features.",
+        "Collaborated with cross-functional stakeholders throughout feature development and integration.",
+        "Debugged and resolved software defects while maintaining readable, stable, and maintainable production code.",
       ],
     },
     {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
+      company: "Flying Ants Studio",
+      title: "Unity Gameplay Programmer",
+      dateRange: "March 2024 - October 2024",
       bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
+        "Implemented levels and developed gameplay mechanics, physics, UI, and gameplay polish for existing projects",
+        "Built gameplay UI and cinematic sequences using Unity Timeline and Cinemachine.",
+        "Rapidly prototyped and iterated on gameplay features based on team feedback.",
+        "Collaborated with designers, artists, and producers throughout feature development."
       ],
     },
     {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
+      company: "Holy Cow Productions",
+      title: "Gameplay Programmer",
+      dateRange: "May 2023 - February 2024",
       bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
+        "Developed gameplay systems and player-facing mechanics across commercial Unity projects.",
+        "Implemented multiplayer gameplay using Photon Fusion and integrated Firebase services.",
+        "Developed AI behaviours, gameplay UI, physics interactions, and gameplay logic.",
+        "Maintained production codebases while improving stability and maintainability.",
+        "Collaborated with designers and artists on gameplay iteration, debugging, and polish."
+      ],
+    },
+    {
+      company: "Light Verse",
+      title: "Unity Gameplay Developer",
+      dateRange: "August 2022 - March 2023",
+      bullets: [
+        "Developed gameplay mechanics and interactive systems for casual, hyper-casual, and VR experiences.",
+        "Contributed to gameplay prototyping, design discussions, and pre-production planning.",
       ],
     },
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "IT University of Copenhagen",
+      degree: "MSc in Games (Tech Track)",
+      dateRange: "2024 - 2026",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
+
       ],
     },
     {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
+      school: "JECRC University",
+      degree: "Bachelor of Technology (Computer Science)",
+      dateRange: "2018 -2022",
       achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+
       ],
     },
   ],
