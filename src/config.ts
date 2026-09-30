@@ -13,6 +13,13 @@ export const siteConfig = {
     "Game Programmer with around 2 years of professional experience developing real-time interactive software using C++, C#, and Python. Experienced in gameplay and systems programming, AI behaviours, state machines, physics, networking, UI, and reusable software components. Strong interest in C++ game technology, graphics, and engine-level systems, with hands-on experience in OpenGL, Unity, and Unreal Engine 5. Currently pursuing an MSc in Games (Tech Track) at the IT University of Copenhagen.",
   skills: ["Unity3D", "C++", "C#", "OpenGL", "Godot", "Unreal Engine", "Git", "GIMP"],
   projects: [
+      {
+      name: "Render Engine",
+      description:
+        "A very simple renderring engine made using C++ and OpenGL",
+      link: "https://github.com/Shubh2018/RenderEngine-OpenGL",
+      skills: ["C++", "OpenGL"],
+    },
     {
       name: "Scourge",
       description:
