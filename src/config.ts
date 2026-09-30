@@ -16,7 +16,7 @@ export const siteConfig = {
       {
       name: "Render Engine",
       description:
-        "A very simple renderring engine made using C++ and OpenGL",
+        "A very simple rendering engine made using C++ and OpenGL",
       link: "https://github.com/Shubh2018/RenderEngine-OpenGL",
       skills: ["C++", "OpenGL"],
     },
